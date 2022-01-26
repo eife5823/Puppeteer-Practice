@@ -1,0 +1,19 @@
+{
+	"name": "puppeteer-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example.test.js",
+		"test:device": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests/device.test.js",
+		"test:e2e": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/*.test.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chai": "^4.3.4",
+		"mocha": "^9.2.0",
+		"prettier": "^2.5.1",
+		"puppeteer": "^13.1.1"
+	}
+}
